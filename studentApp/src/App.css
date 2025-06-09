@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.student-card {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.student-card h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.student-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-form label {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.student-form input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+.student-form button {
+  margin-top: 1rem;
+  padding: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.student-form button:hover {
+  background-color: #45a049;
+}
+
+.student-list {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 1rem;
+}
+
+.student-item {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #8c9298;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
