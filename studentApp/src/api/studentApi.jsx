@@ -9,3 +9,15 @@ const api = axios.create(
 export const getData = () => {
     return api.get("/student");
 }
+
+export const postData = (data) => {
+    return api.post("/student", data);
+}
+
+export const deleteData = (id) => {
+    return api.delete(`/student/${id}`);
+}
+
+export const updateData = (id, student) => {
+    return api.put(`/student/${id}?name=${student.name}&email=${student.email}`);
+}
